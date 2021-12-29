@@ -1,0 +1,206 @@
+body {
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1 {
+    font-size: 66px;
+    font-weight: 600;
+    line-height: 80px;
+}
+
+h2 {
+    font-size: 46px;
+    font-weight: 600;
+    line-height: 80px;
+}
+
+h3 {
+    padding-top: 10px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 80px;
+}
+
+p {
+    font-size: 18px;
+    color: #ffffff;
+    line-height: 1.8;
+    margin-bottom: 0;
+}
+
+section {
+    padding: 120px 0;
+}
+
+.bg-light-grey {
+    background-color: #ffffff;
+}
+
+.bg-dark {
+    background-color: #1a1a1a;
+}
+
+.topmargin-xs {
+    margin-top: 15px;
+}
+
+.topmargin-sm {
+    margin-top: 30px;
+}
+
+.topmargin-lg {
+    margin-top: 60px;
+}
+
+.btn {
+    font-size: 14px;
+    padding: 15px 26px;
+    min-width: 160px;
+    border-radius: 2px;
+    display: inline-block;
+}
+
+.btn-light {
+    background-color: white;
+    color: #1a1a1a;
+    border: 2px solid white;
+}
+
+.navbar {
+    background-color: white;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .05);
+    min-height: 100px;
+}
+
+.nav-link {
+    color: #1a1a1a;
+}
+
+.nav-link:hover {
+    color: #1a1a1a;
+}
+
+.logo-brand {
+    min-width: 160px;
+    max-width: 180px;
+}
+
+.navbar-toggler {
+    font-size: 40px;
+}
+
+.navbar-toggler:focus {
+    outline: none;
+}
+
+#hero {
+    background-image: url(../img/fondo01bri.jpg);
+    background-size: cover;
+    padding-top: 90px;
+    min-height: 400px;
+    color: #ffffff;
+}
+
+#hero p {
+    color: #ffffff;
+}
+
+.content-center {
+    max-width: 800px;
+    margin: 0 auto 60px auto;
+    text-align: center;
+}
+
+#sobremi p {
+    color: black;
+}
+
+.img-sobremi {
+    align-items: center;
+}
+
+#motores {
+    background-image: url(../img/fondo03bri.jpg);
+    background-size: cover;
+    padding-top: 90px;
+    min-height: 700px;
+    color: #ffffff;
+}
+
+.productos-container {
+    position: relative;
+    overflow: hidden;
+    margin: 10px 0;
+    border-radius: 2px;
+}
+
+.productos-container img {
+    transition: all 1.2s;
+}
+
+.productos-container:hover img {
+    transform: scale(1.2);
+}
+
+#contacto p {
+    color: black;
+}
+
+#contacto textarea {
+    height: 150px;
+}
+
+#footer {
+    padding: 80px 0;
+    text-align: center;
+    color: #ffffff;
+}
+
+#footer a {
+    color: #ffffff;
+}
+
+#footer a:hover {
+    color: #ffffff;
+}
+
+.footer .list-inline .list-inline-item {
+    padding: 10px 15px;
+}
+
+ion-icon {
+    font-size: 25px ;
+ }
+
+ /* PAGINA SOBREMI */
+
+ #pagina-sobremi {
+    background-image: url(../img/fondosobremi01.jpg);
+    background-size: cover;
+    padding-top: 90px;
+    min-height: 300px;
+    color: #ffffff;
+}
+
+#pagina-sobremi p {
+    color: #ffffff;
+}
+
+#pagina-sobremi-content p {
+color: #1a1a1a;
+}
+
+/* PAGINA PRODUCTOS */
+
+#pagina-productos {
+    background-image: url(../img/fondo04.jpg);
+    background-size: cover;
+    padding-top: 90px;
+    min-height: 300px;
+    color: #ffffff;
+}
+
+#carousel {
+    padding: 90px 0;
+}
