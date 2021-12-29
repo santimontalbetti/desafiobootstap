@@ -204,3 +204,11 @@ color: #1a1a1a;
 #carousel {
     padding: 90px 0;
 }
+
+.carousel-control-next-icon {
+    background-color: #1a1a1a !important;
+}
+
+.carousel-control-prev-icon {
+    background-color: #1a1a1a !important;
+}
